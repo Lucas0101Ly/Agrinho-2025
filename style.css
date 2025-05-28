@@ -66,6 +66,7 @@ footer{
  }
 
  ul.li{
+    display: inline;
     list-style: none;
     display: flex;
     text-align: center;
