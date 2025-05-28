@@ -42,8 +42,8 @@ header{
 
 p{
     text-align: center;
-     margin-right: 20%; 
-    margin-left: 40%;
+    margin-left: 20%;
+    margin-right: 5%;
 
 
 }
@@ -66,4 +66,8 @@ footer{
 
  ul{
     display: flex;
+ }
+
+ .normal ul{
+    display: block;
  }
