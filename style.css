@@ -1,6 +1,11 @@
  body{
-background-color: rgb(64, 182, 64);
+background-color: rgb(14, 112, 43);
 color: black;
+
+}
+
+main{
+    background-color: rgb(64, 182, 64);
 
 }
 
@@ -12,11 +17,14 @@ h1{
 h2{
     color: rgb(56, 50, 50);
     text-align: center;
+        font-size: 45px;
+
 }
 
 h3{
     color: rgb(228, 255, 230);
     text-align: center;
+    font-size: 40px;
 }
 
 header{
@@ -33,6 +41,8 @@ p{
     margin-right: 40%;
     margin-left: 20%;
     padding-bottom: 50%;
+        font-size: 25px;
+
 }
 
 footer{
