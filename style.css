@@ -1,14 +1,22 @@
  body{
-background-color: rgb(44, 163, 44);
+background-color: rgb(64, 182, 64);
 color: black;
 
 }
 
 h1{
-    color: gray;
+    color: rgb(56, 50, 50);
+    text-align: center;
 }
 
 header{
+    background-color: rgb(14, 112, 43);
     padding: 50%;
     margin: 50%;
+}
+
+p{
+    text-align: center;
+    margin-right: 40%;
+    padding-bottom: 5%;
 }
