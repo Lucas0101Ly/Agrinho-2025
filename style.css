@@ -53,7 +53,7 @@ li{
       text-align: center;
      margin-right: 300px; 
     margin-left: 200px;
-
+   
 
 
 }
@@ -63,4 +63,9 @@ footer{
     padding: 10px;
     color: #fff;
     bottom: 0;
+ }
+
+ ul.li{
+    display: inline;
+    text-align: center;
  }
