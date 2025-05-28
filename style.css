@@ -42,8 +42,8 @@ header{
 
 p{
     text-align: center;
-     margin-right: 300px; 
-    margin-left: 200px;
+     margin-right: 20%; 
+    margin-left: 40%;
 
 
 }
@@ -51,10 +51,7 @@ p{
 li{
 
       text-align: center;
-     margin-right: 300px; 
-    margin-left: 200px;
     list-style: none;
-       display: flex;
 
 
 
@@ -67,6 +64,6 @@ footer{
     bottom: 0;
  }
 
- ul.li{
-    text-align: center;
+ ul{
+    display: flex;
  }
