@@ -17,19 +17,19 @@ h1{
 h2{
     color: rgb(56, 50, 50);
     text-align: center;
-        font-size: 45rem;
+        font-size: 4.5rem;
 
 }
 
 h3{
     color: rgb(228, 255, 230);
     text-align: center;
-    font-size: 40rem;
+    font-size: 4.0rem;
 }
 
 header{
     background-color: rgb(14, 112, 43);
-    padding: 50rem;
+    padding: 5rem;
     color: #fff;
     text-align: center;
     position: relative;
@@ -38,15 +38,15 @@ header{
 
 p{
     text-align: center;
-    margin-right: 40rem;
-    margin-left: 20rem;
-    padding-bottom: 50rem;
-        font-size: 25rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    padding-bottom: 5rem;
+        font-size: 2.5rem;
 
 }
 
 footer{
     background-color: rgb(64, 182, 64);
-    padding: 24rem;
-    margin-top: 32rem;
+    padding: 2.4rem;
+    margin-top: 3.2rem;
 }
