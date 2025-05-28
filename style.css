@@ -1,12 +1,16 @@
  body{
 background-color: rgb(14, 112, 43);
 color: black;
+line-height: 1.6;
   margin: 0;
     padding: 0;
 }
 
 main{
     background-color: rgb(64, 182, 64);
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
 
 }
 
@@ -41,6 +45,7 @@ p{
     text-align: center;
     margin-right: 300px;
     margin-left: 200px;
+
 
 }
 
