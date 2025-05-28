@@ -1,5 +1,5 @@
  body{
-background-color: rgb(5, 141, 84);
+background-color: rgb(64, 182, 64);
 color: black;
 line-height: 1.6;
   margin: 0;
@@ -14,12 +14,12 @@ main{
 }
 
 h1{
-    color: rgb(56, 50, 50);
+    color: rgb(228, 255, 230);
     text-align: center;
 }
 
 h2{
-    color: rgb(56, 50, 50);
+    color: rgb(228, 255, 230);
     text-align: center;
         font-size: 200%;
 
@@ -44,6 +44,16 @@ p{
     text-align: center;
      margin-right: 300px; 
     margin-left: 200px;
+
+
+}
+
+li{
+
+      text-align: center;
+     margin-right: 300px; 
+    margin-left: 200px;
+
 
 
 }
