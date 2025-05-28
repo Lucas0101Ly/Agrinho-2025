@@ -1,0 +1,14 @@
+ body{
+background-color: rgb(44, 163, 44);
+color: black;
+
+}
+
+h1{
+    color: gray;
+}
+
+header{
+    padding: 50%;
+    margin: 50%;
+}
