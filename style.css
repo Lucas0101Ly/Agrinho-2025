@@ -42,8 +42,7 @@ header{
 
 p{
     text-align: center;
-    margin-left: 20%;
-    margin-right: 5%;
+    margin: 5% 5%;
 
 
 }
@@ -52,6 +51,7 @@ li{
 
       text-align: center;
     list-style: none;
+    margin-left: 5%;
 
 
 
