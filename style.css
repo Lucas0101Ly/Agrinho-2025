@@ -1,9 +1,11 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corpo */
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #f7f0e8, #e0e4cc);
@@ -11,6 +13,7 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
     background: linear-gradient(to right, #0e702b, #146b3a);
     color: white;
@@ -37,6 +40,7 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.4);
 }
 
+/* Main */
 main {
     max-width: 1000px;
     margin: 0 auto;
@@ -64,7 +68,9 @@ ul {
     list-style-type: disc;
 }
 
+/* Footer */
 footer {
+    width: 100%; /* Garantir ocupação total da largura */
     background: #333;
     color: white;
     text-align: center;
@@ -72,13 +78,13 @@ footer {
     margin-top: 2rem;
 }
 
-/* Estilo do Carrossel */
+/* Carrossel */
 .carrossel {
     position: relative;
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
     margin: 2rem auto;
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 12px;
 }
 
@@ -88,7 +94,7 @@ footer {
 
 .slides {
     display: flex;
-    width: 300%;
+    width: 300%; /* 3 slides */
     transition: transform 0.6s ease;
 }
 
@@ -99,14 +105,15 @@ footer {
 
 .slide img {
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
 }
 
+/* Controle dos slides via input radio */
 #slide1:checked ~ .slides {
     transform: translateX(0%);
 }
@@ -117,6 +124,7 @@ footer {
     transform: translateX(-200%);
 }
 
+/* Navegação do carrossel */
 .nav {
     text-align: center;
     margin-top: 1rem;
@@ -124,21 +132,24 @@ footer {
 
 .nav label {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     background: #ccc;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 6px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
 }
 
 input#slide1:checked ~ .nav label[for="slide1"],
 input#slide2:checked ~ .nav label[for="slide2"],
 input#slide3:checked ~ .nav label[for="slide3"] {
     background: #0e702b;
+    border-color: #0a4d1a;
 }
 
+/* Responsivo */
 @media (max-width: 768px) {
     nav a {
         display: block;
