@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -58,20 +60,21 @@ footer {
     width: 100%;
     bottom: 0;
     padding: 10px;
-    position: fixed;
     
 }
 
 ul {
-    text-align: center;
-    display: flex;
+    list-style: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    padding-inline-start: 40px;
+    padding-inline-start: 0;
 }
 
 .normal ul {
     display: block;
+    text-align: left; 
+    margin: 0 auto;  
+    max-width: 800px;
 }
 
 a {
