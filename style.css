@@ -39,7 +39,7 @@ nav a:hover {
 
 main {
     max-width: 1000px;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 1rem;
 }
 
@@ -76,11 +76,10 @@ footer {
 .carrossel {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 600px; 
     margin: 2rem auto;
-    overflow: hidden;
+    overflow: hidden; 
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .carrossel input {
@@ -100,10 +99,12 @@ footer {
 
 .slide img {
     width: 100%;
+    max-width: 600px; 
     height: auto;
-    display: block;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block; 
+    margin: 0 auto; 
 }
 
 #slide1:checked ~ .slides {
@@ -129,7 +130,7 @@ footer {
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
 }
 
 input#slide1:checked ~ .nav label[for="slide1"],
