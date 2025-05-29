@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agrinho</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvimento de habilidades para gestão rural e urbana.">
+    <title>Agrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <header>
+        <h1>Desenvolvimento de Habilidades para Gestão Rural e Urbana</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="index2.html">Veja Mais</a>
+        </nav>
+    </header>
 
-  <header>
+    <main>
+        <section>
+            <h2>Importância de Aprender Habilidades de Gestão</h2>
+            <p>
+                O mundo em constante transformação exige novas formas de pensar e agir. Aprender a gerir bem territórios — sejam eles urbanos ou rurais — deixou de ser uma opção, tornando-se uma necessidade urgente.
+            </p>
+            <p>
+                A gestão envolve visão estratégica, sensibilidade social e capacidade de adaptação. Essas habilidades garantem qualidade de vida, produção sustentável e fortalecimento das comunidades.
+            </p>
+        </section>
 
-    <h1>Desenvolvimento de Habilidades para Gestão Rural e Urbana</h1>
+        <section class="carrossel">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Página Inicial</a></li>
-        <li><a href="index2.html">Veja Mais</a></li>
-      </ul>
-    </nav>
-    
-  </header>
+            <div class="slides">
+                <div class="slide">
+                    <img src="img1.jpg" alt="Gestão no campo">
+                </div>
+                <div class="slide">
+                    <img src="img2.jpg" alt="Plantação no Campo">
+                </div>
+                <div class="slide">
+                    <img src="img3.jpg" alt="Árvore no campo">
+                </div>
+            </div>
 
-  <main>
-    <section>
-      <h2>Importância de Aprender Habilidades de Gestão</h2>
-      <p>Vivemos em um mundo em constante transformação. O crescimento das cidades, as mudanças climáticas, a revolução tecnológica no campo e os desafios da sustentabilidade exigem novas formas de pensar e agir. Aprender a gerir territórios, sejam urbanos ou rurais, tornou-se uma necessidade.</p>
+            <div class="nav">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </section>
+    </main>
 
-      <p>A gestão eficiente vai além da administração de recursos: envolve visão estratégica, sensibilidade social, conhecimento técnico e capacidade de adaptação. Planejar, organizar, liderar e inovar são competências essenciais para garantir qualidade de vida, sustentabilidade e fortalecimento das comunidades.</p>
-    </section>
-
-    <section>
-      <h3>Por que Desenvolver Essas Habilidades?</h3>
-      <ul class="normal">
-        <li>✅ No meio rural, uma boa gestão transforma pequenas propriedades em negócios sustentáveis, promove a agricultura familiar e melhora a qualidade de vida no campo.</li>
-        <li>✅ Nas cidades, uma gestão eficiente resolve problemas como mobilidade, moradia, saneamento e resíduos, promovendo crescimento ordenado e justo.</li>
-        <li>✅ Para todos, desenvolver essas competências fortalece a cidadania, amplia oportunidades de emprego e cria soluções inovadoras para desafios locais e globais.</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Festejando a conexão campo-cidade. Todos os direitos reservados. | Criado por Lucas Gabriel</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Festejando a conexão campo-cidade. Criado por Lucas Gabriel</p>
+    </footer>
 </body>
 </html>
