@@ -18,7 +18,7 @@ main {
 }
 
 h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -55,9 +55,11 @@ li {
 footer {
     background-color: #333;
     color: #fff;
+    width: 100%;
     bottom: 0;
     padding: 10px;
     position: fixed;
+    
 }
 
 ul {
