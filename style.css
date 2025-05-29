@@ -1,3 +1,8 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
  body{
 background-color: #fff;
 color: black;
@@ -51,7 +56,7 @@ li{
 
       text-align: center;
     list-style: none;
-    margin-left: 15%;
+    
 
 
 
@@ -59,15 +64,22 @@ li{
 
 footer{
     background-color: rgb(14, 112, 43);
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     bottom: 0;
  }
 
  ul{
     display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px
  }
 
  .normal ul{
     display: block;
+ }
+
+ a {
+    text-decoration: none;
  }
